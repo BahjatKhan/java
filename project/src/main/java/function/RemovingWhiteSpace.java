@@ -12,5 +12,8 @@ public class RemovingWhiteSpace {
         String shopName= "The meat shop             ";
         Function<String, Integer> s1 = p -> p.length() - p.replaceAll("\\s","").length();
         System.out.println(s1.apply(shopName));
+
+        String a ="123";
+        a.toString();
     }
 }
